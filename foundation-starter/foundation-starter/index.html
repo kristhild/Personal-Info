@@ -3,10 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Foundation Intro</title>
+	<title>Kristina Hildebrandt</title>
 	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class = "center">
     <div class="off-canvas-wrapper">
         <!-- Your menu or Off-canvas content goes here -->
         <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
@@ -16,14 +17,13 @@
             </button>
 
             <!-- Menu -->
-            <ul class="vertical menu">
-                <li><a href="#">Foundation</a></li>
-                <li><a href="#">Dot</a></li>
-                <li><a href="#">ZURB</a></li>
-                <li><a href="#">Com</a></li>
-                <li><a href="#">Slash</a></li>
-                <li><a href="#">Sites</a></li>
+            <ul class="vertical menu small">
+                <li><a href="#">Home</a></li>
+                <li><a href="Background.html">Background</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Projects.html">Projects</a></li>
             </ul>
+
         </div>
 
         <!-- Your page content lives here -->
@@ -31,22 +31,35 @@
             <!-- main content within a `grid-container` -->
             <div class="grid-container">
                 <!-- `grid-x` represents a row -->
-                <div class="grid-x grid-padding-x">
-                    <div class="cell small-6 large-4" style="background-color: #ADD8E6;">Small 6 / Large 4</div>
-                    <div class="cell small-6 large-8" style="background-color: #90EE90;">Small 6 / Large 8</div>
+
+                <div class="grid-x grid-padding-x show-for-medium">
+                    <div class="cell medium-auto large-auto" style="background-color: #E3F2F8;"><a href="Background.html">Background</a></div>
+                    <div class="cell medium-auto large-auto" style="background-color: #C0E0ED;"><a href="Resume.html">Resume</a></div>
+                    <div class="cell medium-auto large-auto" style="background-color: #A3CAD9;"><a href="Projects.html">Projects</a></div>
+                </div>    
+
+                <div class="grid-x grid-padding-x show-for-small-only">
+                    <button type="button" class="cell small-2 button" data-toggle="offCanvas">
+                        <img src="/menuIconS.png" alt="Menu">
+                    </button>
                 </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">One</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Two</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Three</div>
-                    <div class="cell large-auto" style="background-color: #90EE90;">Four</div>
-                    <div class="cell large-auto" style="background-color: #ADD8E6;">Five</div>
+
+                <div class="cell large-auto"><h1>Kristina Hildebrandt</h1></div>
+
+                <div class="cell large-auto">
+                    <img src = "/Headshot(3).jpg" alt = "Headshot">
                 </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
-                </div>
+
+                <p>
+                    Hello! My name is Kristina and I am currently a senior at the
+                    <a href="https://www.stthomas.edu/" target="_blank">University of St. Thomas</a>
+                     , soon to be graduate! I am studying
+                    Computer and Data Science (B.S), and hope to become an AI developer or data engineer.
+                    I grew up in the Twin Cities, so I have lived in Minnesota my whole life, excluding one year in which I lived in Grand
+                    Forks, ND for college. I love travelling, hiking, visiting national and state parks, caring for animals, reading, 
+                    drawing, and crotcheting. One personal goal of mine is to travel to every continent.
+                </p>
+
             </div>
         </div>
     </div>
