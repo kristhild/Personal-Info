@@ -2,11 +2,12 @@
 body{
     background-image: url('/Pics/Italy.JPG');
     background-size: cover;
+    font-size: 1rem;
 }
 
 
 h1{
-    color: #E8F2F5;
+    color: white;
     text-align: center;
 }
 
@@ -17,7 +18,11 @@ h1{
 
 .center{
     text-align: center;
-    color: #E8F2F5;
+}
+
+p{
+    text-align: center;
+    color: white;
 }
 
 .sect{
