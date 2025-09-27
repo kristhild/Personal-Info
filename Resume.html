@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kristina Hildebrandt</title>
+	<link rel="stylesheet" href="foundation-starter/css/foundation.css">
+    <link rel="stylesheet" href="foundation-starter/css/style.css">
+</head>
+
+<body>
+    <div class="off-canvas-wrapper">
+            <!-- Your menu or Off-canvas content goes here -->
+            <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+                <!-- Close button -->
+                <button class="close-button" aria-label="Close menu" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <!-- Menu -->
+                <ul class="vertical menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Background.html">Background</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                </ul>
+            </div>
+
+            <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x show-for-medium">
+                    <div class="cell medium-auto large-auto" style="background-color: #E3F2F8;"><a href="index.html">Home</a></div>
+                    <div class="cell medium-auto large-auto" style="background-color: #C0E0ED;"><a href="Background.html">Background</a></div>
+                    <div class="cell medium-auto large-auto" style="background-color: #A3CAD9;"><a href="Projects.html">Projects</a></div>
+                </div>
+
+                <div class="grid-x grid-padding-x show-for-small-only">
+                    <button type="button" class="cell small-2 button" data-toggle="offCanvas">
+                        <img src="Pics/menuIconS.png" alt="Menu">
+                    </button>
+                </div>
+
+                <div class="cell large-auto"><h1>Kristina Hildebrandt</h1></div>
+            </div>
+
+            <div class="grid-container" style="background-color:#E3F2F8">
+                <div class="grid-y grid-padding-y">
+
+                    <!-- Education -->
+                    <div class="sect">Education</div>
+
+                    <!-- UST -->
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell large-9">University of St. Thomas</div>
+                        <div class="cell large-2">2023-2026</div>
+
+                    </div><ul><li>UST J-Term 2025: Medieval and Renaissance Florence - Italy</li></ul></div>
+
+                    <!-- UND -->
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell large-9">University of North Dakota</div>
+                        <div class="cell large-2">2022-2023</div>
+                    </div>
+
+                    <hr>
+
+                    <!-- Skills -->
+                    <div class="sect">Skills</div>
+                    <div class="grid-x grid-padding-x">
+
+                        <div class="cell large-1" style="font-style: italic;">Languages</div>
+                        <div class="cell large-9">Java, Python, R, Assembly Code, HTML, SQL, C</div>
+                    </div>
+                    <div class="grid-x grid-padding-x">
+
+                        <div class="cell large-1" style="font-style: italic;">Programs</div>
+                        <div class="cell large-9">RStudio, Tableau, Github, Shell, Excel</div>
+                    </div>
+
+                    <hr>
+
+                    <!-- Experience -->
+                    <div class="sect">Experience</div>
+                    <div style="font-style: italic;">Research Assistant</div>
+                        <div>
+                        <ul>
+                            <li>Collaborate on the development of a prototype AI-powered mock interview system for students</li>
+                            <li>Comparatively analyzed LLM tools by accuracy, latency, privacy, and ethical principles (e.g., Hugging Face Transformers, OpenAI, BERT)</li>
+                            <li>Reviewed current scholarly literature on LLMs and conversational agents</li>
+                        </ul>
+                        </div>
+
+                    <div style="font-style: italic;">Teaching Assistant</div>
+                    <div>
+                        <ul>
+                            <li>Create java auto grader testing and comment on student's object-oriented programs</li>
+                            <li>Grade coding labs and weekly technical quizzes</li>
+                            <li>Utilized: Java, Java parser, Abstract Syntax Tree, IntelliJ, GitHub</li>
+                        </ul>
+                    </div>
+                    <div style="font-style: italic;">Sales Associate</div>
+                    <div>
+                        <ul>
+                            <li>Tailor products to customer's needs and wants</li>
+                            <li>Pitched credit card benefits while exceeding sale expectations</li>
+                            <li>Complete transactions at counter for the customer</li>
+                            <li>Package online orders and monitor product stock</li>
+                        </ul>
+                    </div>
+
+                    <hr>
+
+                    <!-- Leadership -->
+                    <div class="sect">Leadership Experience</div>
+                    <div style="font-style: italic;">President of Art Club</div>
+                    <div>
+                        <ul>
+                            <li>Lead weekly club activities</li>
+                            <li>Manage club's directive board in meetings and schedule</li>
+                            <li>Budget club expenses and pitch University funding</li>
+                        </ul>
+                    </div>
+                </br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- include before closing <body> tag -->
+    <script src="foundation-starter/js/jquery.js"></script>
+    <script src="foundation-starter/js/what-input.js"></script>
+    <script src="foundation-starter/js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+
+</html>

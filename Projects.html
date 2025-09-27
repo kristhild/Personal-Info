@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kristina Hildebrandt</title>
+	<link rel="stylesheet" href="foundation-starter/css/foundation.css">
+    <link rel="stylesheet" href="foundation-starter/css/style.css">
+</head>
+<body>
+
+    <div class="off-canvas-wrapper">
+            <!-- Your menu or Off-canvas content goes here -->
+            <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+                <!-- Close button -->
+                <button class="close-button" aria-label="Close menu" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <!-- Menu -->
+                <ul class="vertical menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Background.html">Background</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </div>
+    </div>
+
+            <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x show-for-medium">
+                    <div class="cell medium-auto large-auto" style="background-color: #E3F2F8;"><a href="index.html">Home</a></div>
+                    <div class="cell medium-auto large-auto" style="background-color: #C0E0ED;"><a href="Background.html">Background</a></div>
+                    <div class="cell medium-auto large-auto" style="background-color: #A3CAD9;"><a href="Resume.html">Resume</a></div>
+                </div>
+
+                <div class="grid-x grid-padding-x show-for-small-only">
+                    <button type="button" class="cell small-2 button" data-toggle="offCanvas">
+                        <img src="Pics/menuIconS.png" alt="Menu">
+                    </button>
+                </div>
+
+                <div class="cell large-auto"><h1>Kristina Hildebrandt</h1></div>
+
+                <!-- Project per row, image then description-->
+                <div class="grid-y grid-padding-y">
+
+                    <!--Waste Project-->
+                    <div class="cell large-12">
+                        <div class="grid-x grid-margin-x" style="background-color: #E3F2F8;">
+                            <div class="cell large-auto" class = "project">
+                                <img src="Projects/aashe.png" alt="Poster"></div>
+
+                                <div class="grid-y">
+                                    <div class="cell large-auto"> <h4>Waste Management</h4></div>
+                                    <div class="cell large-auto">
+                                        <ul>
+                                            <li> Tided raw data from STARS organization about UST's waste resources</li>
+                                            <li> Varibales include total amount of waste/recycling/compost/and donations, size of schools</li>
+                                            <li> Used linear regression, scatterplots, and other models to portray UST's waste allocation in comparison to other Catholic Universities</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <!--Airplane Project-->
+                    <div class="cell large-12">
+                        <div class="grid-x grid-margin-x" class="project" style="background-color: #E3F2F8;">
+                            <div class="cell large-auto" class="project">
+                                <img src="Projects/airplane(1).jpeg" alt="Poster"></div>
+
+                                <div class="grid-y">
+                                    <div class="cell large-auto"> <h4>Aviation Crashes</h4></div>
+                                    <div class="cell large-auto">
+                                        <ul>
+                                            <li> Tidied data from NTSB regarding aviation accident reports from 1982-2024</li>
+                                            <li> Merged, and sorted datasets on R and with SQL</li>
+                                            <li> Followed journalistic practices to create the most understandable data visualizations</li>
+                                            <li><a href="https://kristhild.github.io/" target="_blank">View the page</a></li>
+                                        </ul>
+                                    </div>
+                                </div>          
+                        </div>
+                    </div>
+
+                    <!--Hangman Project-->
+                    <div class="cell large-12">
+                        <div class="grid-x grid-margin-x" style="background-color: #E3F2F8;">
+                            <div class="cell large-auto" class = "project">
+                                <img src="Projects/hangman.png" alt="Poster"></div>
+
+                                <div class="grid-y grid-padding-y">
+                                    <div class="cell large-auto"> <h4>Hangman Game</h4></div>
+                                    <div class="cell large-auto">
+                                        <ul>
+                                            <li> Used java and object orientation to create a hangman game with a leaderboard (while tracking user data)</li>
+                                            <li> The game randomly draws from a list of words, and gives the user so many failed guesses before losing</li>
+                                            <li> The stick figure forms with more mistakes, the user is timed, and correct/incorrect guesses are monitored on the screen</li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    <!-- include before closing <body> tag -->
+    <script src="foundation-starter/js/jquery.js"></script>
+    <script src="foundation-starter/js/what-input.js"></script>
+    <script src="foundation-starter/js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

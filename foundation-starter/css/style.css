@@ -1,0 +1,26 @@
+
+body{
+    background-image: url('/Pics/Italy.JPG');
+    background-size: cover;
+}
+
+
+h1{
+    color: #E8F2F5;
+    text-align: center;
+}
+
+.project{
+    background-color: #E3F2F8;
+    color: black;
+}
+
+.center{
+    text-align: center;
+    color: #E8F2F5;
+}
+
+.sect{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
